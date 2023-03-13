@@ -1,6 +1,11 @@
 import * as React from 'react'
 
-import { InlineSVGComponent as InlineSVGComponent } from './types'
+type InlineSVGProps = {
+  src: string
+  className?: string
+}
+
+export type InlineSVGComponent = React.FC<InlineSVGProps>
 
 export const InlineSVG: InlineSVGComponent = ({ src, className }) => {
   const [inline, setInline] = React.useState(null as any)

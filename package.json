@@ -1,6 +1,6 @@
 {
   "name": "inline-svg",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A template for publishing a React + TypeScript package to npm",
   "author": "Maicon Ribeiro Esteves",
   "license": "Apache-2.0",
